@@ -105,7 +105,7 @@ def start():
             else:
                 print("Cette ville n'est pas dans notre base de donnée. Vérifiez peut être l'ortographe. \n")
 
-    if len(listeVilles) < 3:
+    if len(listeVilles) < 2:
         print('Veuillez insérer au moin 2 villes')
         return start()
 
