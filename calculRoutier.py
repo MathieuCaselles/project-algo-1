@@ -105,6 +105,10 @@ def start():
             else:
                 print("Cette ville n'est pas dans notre base de donnée. Vérifiez peut être l'ortographe. \n")
 
+    if len(listeVilles) < 3:
+        print('Veuillez insérer au moin 2 villes')
+        return start()
+
     for i in range(len(listeVilles) - 1):
 
         resultatParEtape = calculTempsDistance(listeVilles[i], listeVilles[i+1])

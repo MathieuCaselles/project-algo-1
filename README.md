@@ -2,7 +2,7 @@
 
 ## Lancer le programme
 
-Vérifier que calculRoutier.py et dictionnaire.py sont dans le même dossier.
+Vérifier que `calculRoutier.py` et `dictionnaire.py` sont dans le même dossier.
 
 Exécuter ensuite le script python `calculRoutier.py` 
 
