@@ -1,5 +1,4 @@
 from dictionnaire import villes
-from datetime import datetime
 
 def conversionSeconde(secondes):
     minutes = 0
@@ -97,7 +96,6 @@ def start():
     while villeInsere != '' :
         print('Ville{} : '.format(compteur))
         villeInsere = input().lower().capitalize()
-        print(villeInsere)
         if villeInsere != '':
             if villeInsere in villes:
                 listeVilles.append(villeInsere)
